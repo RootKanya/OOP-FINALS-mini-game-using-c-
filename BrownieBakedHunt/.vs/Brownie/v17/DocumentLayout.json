@@ -1,0 +1,239 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\SEMESTER 2\\PBO\\OOP-FINALS-mini-game-using-c-\\BrownieBakedHunt\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EE6FB345-69BE-47B7-990B-696BE7026545}|Brownie\\Brownie.csproj|d:\\semester 2\\pbo\\oop-finals-mini-game-using-c-\\browniebakedhunt\\brownie\\gameform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE6FB345-69BE-47B7-990B-696BE7026545}|Brownie\\Brownie.csproj|solutionrelative:brownie\\gameform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE6FB345-69BE-47B7-990B-696BE7026545}|Brownie\\Brownie.csproj|d:\\semester 2\\pbo\\oop-finals-mini-game-using-c-\\browniebakedhunt\\brownie\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{EE6FB345-69BE-47B7-990B-696BE7026545}|Brownie\\Brownie.csproj|solutionrelative:brownie\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE6FB345-69BE-47B7-990B-696BE7026545}|Brownie\\Brownie.csproj|d:\\semester 2\\pbo\\oop-finals-mini-game-using-c-\\browniebakedhunt\\brownie\\gameobjects\\wolf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE6FB345-69BE-47B7-990B-696BE7026545}|Brownie\\Brownie.csproj|solutionrelative:brownie\\gameobjects\\wolf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE6FB345-69BE-47B7-990B-696BE7026545}|Brownie\\Brownie.csproj|d:\\semester 2\\pbo\\oop-finals-mini-game-using-c-\\browniebakedhunt\\brownie\\gameobjects\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE6FB345-69BE-47B7-990B-696BE7026545}|Brownie\\Brownie.csproj|solutionrelative:brownie\\gameobjects\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE6FB345-69BE-47B7-990B-696BE7026545}|Brownie\\Brownie.csproj|D:\\SEMESTER 2\\PBO\\OOP-FINALS-mini-game-using-c-\\BrownieBakedHunt\\brownie\\gameform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EE6FB345-69BE-47B7-990B-696BE7026545}|Brownie\\Brownie.csproj|solutionrelative:brownie\\gameform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE6FB345-69BE-47B7-990B-696BE7026545}|Brownie\\Brownie.csproj|d:\\semester 2\\pbo\\oop-finals-mini-game-using-c-\\browniebakedhunt\\brownie\\selectcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EE6FB345-69BE-47B7-990B-696BE7026545}|Brownie\\Brownie.csproj|solutionrelative:brownie\\selectcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE6FB345-69BE-47B7-990B-696BE7026545}|Brownie\\Brownie.csproj|d:\\semester 2\\pbo\\oop-finals-mini-game-using-c-\\browniebakedhunt\\brownie\\selectcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE6FB345-69BE-47B7-990B-696BE7026545}|Brownie\\Brownie.csproj|solutionrelative:brownie\\selectcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE6FB345-69BE-47B7-990B-696BE7026545}|Brownie\\Brownie.csproj|d:\\semester 2\\pbo\\oop-finals-mini-game-using-c-\\browniebakedhunt\\brownie\\selectcharacter.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE6FB345-69BE-47B7-990B-696BE7026545}|Brownie\\Brownie.csproj|solutionrelative:brownie\\selectcharacter.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE6FB345-69BE-47B7-990B-696BE7026545}|Brownie\\Brownie.csproj|d:\\semester 2\\pbo\\oop-finals-mini-game-using-c-\\browniebakedhunt\\brownie\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE6FB345-69BE-47B7-990B-696BE7026545}|Brownie\\Brownie.csproj|solutionrelative:brownie\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE6FB345-69BE-47B7-990B-696BE7026545}|Brownie\\Brownie.csproj|D:\\SEMESTER 2\\PBO\\OOP-FINALS-mini-game-using-c-\\BrownieBakedHunt\\brownie\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EE6FB345-69BE-47B7-990B-696BE7026545}|Brownie\\Brownie.csproj|solutionrelative:brownie\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE6FB345-69BE-47B7-990B-696BE7026545}|Brownie\\Brownie.csproj|d:\\semester 2\\pbo\\oop-finals-mini-game-using-c-\\browniebakedhunt\\brownie\\core.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE6FB345-69BE-47B7-990B-696BE7026545}|Brownie\\Brownie.csproj|solutionrelative:brownie\\core.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE6FB345-69BE-47B7-990B-696BE7026545}|Brownie\\Brownie.csproj|d:\\semester 2\\pbo\\oop-finals-mini-game-using-c-\\browniebakedhunt\\brownie\\selectcharacter.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{EE6FB345-69BE-47B7-990B-696BE7026545}|Brownie\\Brownie.csproj|solutionrelative:brownie\\selectcharacter.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE6FB345-69BE-47B7-990B-696BE7026545}|Brownie\\Brownie.csproj|d:\\semester 2\\pbo\\oop-finals-mini-game-using-c-\\browniebakedhunt\\brownie\\brownie.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EE6FB345-69BE-47B7-990B-696BE7026545}|Brownie\\Brownie.csproj|solutionrelative:brownie\\brownie.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 230,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Wolf.cs",
+              "DocumentMoniker": "D:\\SEMESTER 2\\PBO\\OOP-FINALS-mini-game-using-c-\\BrownieBakedHunt\\Brownie\\GameObjects\\Wolf.cs",
+              "RelativeDocumentMoniker": "Brownie\\GameObjects\\Wolf.cs",
+              "ToolTip": "D:\\SEMESTER 2\\PBO\\OOP-FINALS-mini-game-using-c-\\BrownieBakedHunt\\Brownie\\GameObjects\\Wolf.cs",
+              "RelativeToolTip": "Brownie\\GameObjects\\Wolf.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T09:06:02.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "D:\\SEMESTER 2\\PBO\\OOP-FINALS-mini-game-using-c-\\BrownieBakedHunt\\Brownie\\MainForm.cs",
+              "RelativeDocumentMoniker": "Brownie\\MainForm.cs",
+              "ToolTip": "D:\\SEMESTER 2\\PBO\\Brownie\\Brownie\\MainForm.cs [Design]",
+              "RelativeToolTip": "..\\..\\Brownie\\Brownie\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T14:11:45.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "D:\\SEMESTER 2\\PBO\\OOP-FINALS-mini-game-using-c-\\BrownieBakedHunt\\Brownie\\MainForm.cs",
+              "RelativeDocumentMoniker": "Brownie\\MainForm.cs",
+              "ToolTip": "D:\\SEMESTER 2\\PBO\\OOP-FINALS-mini-game-using-c-\\BrownieBakedHunt\\Brownie\\MainForm.cs",
+              "RelativeToolTip": "Brownie\\MainForm.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAYwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T13:18:14.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameForm.cs [Design]",
+              "DocumentMoniker": "D:\\SEMESTER 2\\PBO\\OOP-FINALS-mini-game-using-c-\\BrownieBakedHunt\\Brownie\\GameForm.cs",
+              "RelativeDocumentMoniker": "Brownie\\GameForm.cs",
+              "ToolTip": "D:\\SEMESTER 2\\PBO\\OOP-FINALS-mini-game-using-c-\\BrownieBakedHunt\\Brownie\\GameForm.cs [Design]",
+              "RelativeToolTip": "Brownie\\GameForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T19:27:00.454Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameForm.cs",
+              "DocumentMoniker": "D:\\SEMESTER 2\\PBO\\OOP-FINALS-mini-game-using-c-\\BrownieBakedHunt\\Brownie\\GameForm.cs",
+              "RelativeDocumentMoniker": "Brownie\\GameForm.cs",
+              "ToolTip": "D:\\SEMESTER 2\\PBO\\OOP-FINALS-mini-game-using-c-\\BrownieBakedHunt\\Brownie\\GameForm.cs",
+              "RelativeToolTip": "Brownie\\GameForm.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAgwGMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T17:08:06.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Character.cs",
+              "DocumentMoniker": "D:\\SEMESTER 2\\PBO\\OOP-FINALS-mini-game-using-c-\\BrownieBakedHunt\\Brownie\\GameObjects\\Character.cs",
+              "RelativeDocumentMoniker": "Brownie\\GameObjects\\Character.cs",
+              "ToolTip": "D:\\SEMESTER 2\\PBO\\OOP-FINALS-mini-game-using-c-\\BrownieBakedHunt\\Brownie\\GameObjects\\Character.cs",
+              "RelativeToolTip": "Brownie\\GameObjects\\Character.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAIwCAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T13:48:11.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "D:\\SEMESTER 2\\PBO\\OOP-FINALS-mini-game-using-c-\\BrownieBakedHunt\\Brownie\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "Brownie\\Properties\\Resources.resx",
+              "ToolTip": "D:\\SEMESTER 2\\PBO\\OOP-FINALS-mini-game-using-c-\\BrownieBakedHunt\\Brownie\\Properties\\Resources.resx",
+              "RelativeToolTip": "Brownie\\Properties\\Resources.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-06-18T17:39:55.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SelectCharacter.cs [Design]",
+              "DocumentMoniker": "D:\\SEMESTER 2\\PBO\\OOP-FINALS-mini-game-using-c-\\BrownieBakedHunt\\Brownie\\SelectCharacter.cs",
+              "RelativeDocumentMoniker": "Brownie\\SelectCharacter.cs",
+              "ToolTip": "D:\\SEMESTER 2\\PBO\\OOP-FINALS-mini-game-using-c-\\BrownieBakedHunt\\Brownie\\SelectCharacter.cs [Design]",
+              "RelativeToolTip": "Brownie\\SelectCharacter.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T07:40:28.342Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SelectCharacter.Designer.cs",
+              "DocumentMoniker": "D:\\SEMESTER 2\\PBO\\OOP-FINALS-mini-game-using-c-\\BrownieBakedHunt\\Brownie\\SelectCharacter.Designer.cs",
+              "RelativeDocumentMoniker": "Brownie\\SelectCharacter.Designer.cs",
+              "ToolTip": "D:\\SEMESTER 2\\PBO\\OOP-FINALS-mini-game-using-c-\\BrownieBakedHunt\\Brownie\\SelectCharacter.Designer.cs",
+              "RelativeToolTip": "Brownie\\SelectCharacter.Designer.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAgwKYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T07:25:04.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SelectCharacter.cs",
+              "DocumentMoniker": "D:\\SEMESTER 2\\PBO\\OOP-FINALS-mini-game-using-c-\\BrownieBakedHunt\\Brownie\\SelectCharacter.cs",
+              "RelativeDocumentMoniker": "Brownie\\SelectCharacter.cs",
+              "ToolTip": "D:\\SEMESTER 2\\PBO\\OOP-FINALS-mini-game-using-c-\\BrownieBakedHunt\\Brownie\\SelectCharacter.cs",
+              "RelativeToolTip": "Brownie\\SelectCharacter.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAwwCMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T07:22:43.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Core.cs",
+              "DocumentMoniker": "D:\\SEMESTER 2\\PBO\\OOP-FINALS-mini-game-using-c-\\BrownieBakedHunt\\Brownie\\Core.cs",
+              "RelativeDocumentMoniker": "Brownie\\Core.cs",
+              "ToolTip": "D:\\SEMESTER 2\\PBO\\OOP-FINALS-mini-game-using-c-\\BrownieBakedHunt\\Brownie\\Core.cs",
+              "RelativeToolTip": "Brownie\\Core.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T13:44:11.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SelectCharacter.resx",
+              "DocumentMoniker": "D:\\SEMESTER 2\\PBO\\OOP-FINALS-mini-game-using-c-\\BrownieBakedHunt\\Brownie\\SelectCharacter.resx",
+              "RelativeDocumentMoniker": "Brownie\\SelectCharacter.resx",
+              "ToolTip": "D:\\SEMESTER 2\\PBO\\OOP-FINALS-mini-game-using-c-\\BrownieBakedHunt\\Brownie\\SelectCharacter.resx",
+              "RelativeToolTip": "Brownie\\SelectCharacter.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-06-18T19:27:32.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Brownie.csproj",
+              "DocumentMoniker": "D:\\SEMESTER 2\\PBO\\OOP-FINALS-mini-game-using-c-\\BrownieBakedHunt\\Brownie\\Brownie.csproj",
+              "RelativeDocumentMoniker": "Brownie\\Brownie.csproj",
+              "ToolTip": "D:\\SEMESTER 2\\PBO\\OOP-FINALS-mini-game-using-c-\\BrownieBakedHunt\\Brownie\\Brownie.csproj",
+              "RelativeToolTip": "Brownie\\Brownie.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-14T13:47:54.956Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

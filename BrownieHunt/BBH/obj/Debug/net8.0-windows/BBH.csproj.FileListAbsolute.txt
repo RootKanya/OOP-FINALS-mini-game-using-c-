@@ -1,8 +1,0 @@
-D:\SEMESTER 2\PBO\BBH\BBH\obj\Debug\net8.0-windows\BBH.MainForm.resources
-D:\SEMESTER 2\PBO\BBH\BBH\obj\Debug\net8.0-windows\BrownieBakedHunt.Forms.SelectCharacter.resources
-D:\SEMESTER 2\PBO\BBH\BBH\obj\Debug\net8.0-windows\BBH.csproj.GenerateResource.cache
-D:\SEMESTER 2\PBO\BBH\BBH\obj\Debug\net8.0-windows\BBH.GeneratedMSBuildEditorConfig.editorconfig
-D:\SEMESTER 2\PBO\BBH\BBH\obj\Debug\net8.0-windows\BBH.AssemblyInfoInputs.cache
-D:\SEMESTER 2\PBO\BBH\BBH\obj\Debug\net8.0-windows\BBH.AssemblyInfo.cs
-D:\SEMESTER 2\PBO\BBH\BBH\obj\Debug\net8.0-windows\BBH.csproj.CoreCompileInputs.cache
-D:\SEMESTER 2\PBO\BBH\BBH\obj\Debug\net8.0-windows\BrownieBakedHunt.SelectCharacter.resources
