@@ -143,8 +143,7 @@ namespace Brownie
 
         private void RestartButton_Click(object sender, EventArgs e)
         {
-            // Reload the form
-            GameForm newGame = new GameForm("Sky"); // Or pass the selected character again
+            GameForm newGame = new GameForm("Sky");
             newGame.Show();
             this.Close();
         }
