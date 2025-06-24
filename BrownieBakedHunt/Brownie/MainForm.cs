@@ -1,16 +1,35 @@
+using System;
+using System.Drawing;
+using System.Windows.Forms;
+
 namespace Brownie
 {
     public partial class MainForm : Form
     {
-
         public MainForm()
         {
             InitializeComponent();
+            this.ClientSize = new Size(800, 800);
         }
 
         private void CenterLabel()
         {
             label1.Left = (this.ClientSize.Width - label1.Width) / 2;
+        }
+
+        private void CenterButtons()
+        {
+            int centerX = (this.ClientSize.Width - playButton.Width) / 2;
+            int spacing = 20;
+
+            playButton.Left = centerX;
+            exitButton.Left = centerX;
+
+            int totalHeight = playButton.Height + spacing + exitButton.Height;
+            int startTop = (this.ClientSize.Height - totalHeight) / 2;
+
+            playButton.Top = startTop;
+            exitButton.Top = playButton.Bottom + spacing;
         }
 
         private void MainForm_Load(object sender, EventArgs e)
@@ -23,20 +42,6 @@ namespace Brownie
         {
             CenterLabel();
             CenterButtons();
-
-            int spacing = 100;
-            int startTop = this.ClientSize.Height - 600;
-            playButton.Top = startTop;
-            exitButton.Top = startTop + playButton.Height + spacing;
-
-        }
-
-        private void CenterButtons()
-        {
-            int centerX = (this.ClientSize.Width - playButton.Width) / 2;
-
-            playButton.Left = centerX;
-            exitButton.Left = centerX;
         }
 
         private void playButton_Click(object sender, EventArgs e)

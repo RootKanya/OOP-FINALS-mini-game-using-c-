@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SEMESTER 2\\PBO\\OOP-FINALS-mini-game-using-c-\\BrownieBakedHunt\\Brownie\\Brownie.csproj": {}
+    "C:\\BearKuliahSem02\\sp\\BrownieOOP\\pj002\\OOP-FINALS-mini-game-using-c-\\BrownieBakedHunt\\Brownie\\Brownie.csproj": {}
   },
   "projects": {
-    "D:\\SEMESTER 2\\PBO\\OOP-FINALS-mini-game-using-c-\\BrownieBakedHunt\\Brownie\\Brownie.csproj": {
+    "C:\\BearKuliahSem02\\sp\\BrownieOOP\\pj002\\OOP-FINALS-mini-game-using-c-\\BrownieBakedHunt\\Brownie\\Brownie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SEMESTER 2\\PBO\\OOP-FINALS-mini-game-using-c-\\BrownieBakedHunt\\Brownie\\Brownie.csproj",
+        "projectUniqueName": "C:\\BearKuliahSem02\\sp\\BrownieOOP\\pj002\\OOP-FINALS-mini-game-using-c-\\BrownieBakedHunt\\Brownie\\Brownie.csproj",
         "projectName": "Brownie",
-        "projectPath": "D:\\SEMESTER 2\\PBO\\OOP-FINALS-mini-game-using-c-\\BrownieBakedHunt\\Brownie\\Brownie.csproj",
-        "packagesPath": "C:\\Users\\Firman\\.nuget\\packages\\",
-        "outputPath": "D:\\SEMESTER 2\\PBO\\OOP-FINALS-mini-game-using-c-\\BrownieBakedHunt\\Brownie\\obj\\",
+        "projectPath": "C:\\BearKuliahSem02\\sp\\BrownieOOP\\pj002\\OOP-FINALS-mini-game-using-c-\\BrownieBakedHunt\\Brownie\\Brownie.csproj",
+        "packagesPath": "C:\\Users\\RootKanya\\.nuget\\packages\\",
+        "outputPath": "C:\\BearKuliahSem02\\sp\\BrownieOOP\\pj002\\OOP-FINALS-mini-game-using-c-\\BrownieBakedHunt\\Brownie\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Firman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\RootKanya\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -68,7 +69,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,50 +1,46 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Drawing;
 using System.Windows.Forms;
 
 namespace Brownie.GameObjects
 {
     public class Character
     {
-        private PictureBox _playerPictureBox;
-        private Image _sprite;
+        private PictureBox pictureBox;
+        private int speed = 5;
 
-        public Character(Point startPosition, Size size, Image sprite)
+        public Character(Point location, Size size, Image sprite)
         {
-            _sprite = sprite;
-
-            _playerPictureBox = new PictureBox
+            pictureBox = new PictureBox
             {
+                Image = sprite,
                 Size = size,
-                Location = startPosition,
-                Image = _sprite,
-                SizeMode = PictureBoxSizeMode.StretchImage,
-                BackColor = Color.Transparent
+                Location = location,
+                BackColor = Color.Transparent,
+                SizeMode = PictureBoxSizeMode.StretchImage
             };
         }
 
-        public PictureBox GetPictureBox() => _playerPictureBox;
-
-        public void Move(Size boundary)
+        public PictureBox GetPictureBox()
         {
-            int speed = 5;
-
-            if (Core.IsLeft && _playerPictureBox.Left > 0)
-                _playerPictureBox.Left -= speed;
-
-            if (Core.IsRight && _playerPictureBox.Right < boundary.Width)
-                _playerPictureBox.Left += speed;
-
-            if (Core.IsUp && _playerPictureBox.Top > 0)
-                _playerPictureBox.Top -= speed;
-
-            if (Core.IsDown && _playerPictureBox.Bottom < boundary.Height)
-                _playerPictureBox.Top += speed;
+            return pictureBox;
         }
 
-    }
+        public Rectangle Bounds => pictureBox.Bounds;
 
+        public void Move(Size clientSize)
+        {
+            var newLocation = pictureBox.Location;
+
+            if (Core.IsUp && newLocation.Y > 0)
+                newLocation.Y -= speed;
+            if (Core.IsDown && newLocation.Y + pictureBox.Height < clientSize.Height)
+                newLocation.Y += speed;
+            if (Core.IsLeft && newLocation.X > 0)
+                newLocation.X -= speed;
+            if (Core.IsRight && newLocation.X + pictureBox.Width < clientSize.Width)
+                newLocation.X += speed;
+
+            pictureBox.Location = newLocation;
+        }
+    }
 }

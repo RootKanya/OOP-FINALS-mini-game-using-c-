@@ -2,15 +2,8 @@
 {
     partial class MainForm
     {
-        /// <summary>
-        ///  Required designer variable.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        ///  Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -22,75 +15,65 @@
 
         #region Windows Form Designer generated code
 
-        /// <summary>
-        ///  Required method for Designer support - do not modify
-        ///  the contents of this method with the code editor.
-        /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-            playButton = new Button();
-            exitButton = new Button();
-            label1 = new Label();
-            SuspendLayout();
+            System.ComponentModel.ComponentResourceManager resources = 
+                new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
+            this.playButton = new System.Windows.Forms.Button();
+            this.exitButton = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.SuspendLayout();
             // 
             // playButton
             // 
-            playButton.Font = new Font("Comic Sans MS", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            playButton.Location = new Point(194, 349);
-            playButton.Name = "playButton";
-            playButton.Size = new Size(192, 69);
-            playButton.TabIndex = 0;
-            playButton.Text = "Play";
-            playButton.UseVisualStyleBackColor = true;
-            playButton.Click += playButton_Click;
+            this.playButton.Font = new System.Drawing.Font("Comic Sans MS", 14F, 
+                System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.playButton.Size = new System.Drawing.Size(220, 70);
+            this.playButton.Text = "Play";
+            this.playButton.UseVisualStyleBackColor = true;
+            this.playButton.Click += new System.EventHandler(this.playButton_Click);
             // 
             // exitButton
             // 
-            exitButton.Font = new Font("Comic Sans MS", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            exitButton.Location = new Point(194, 446);
-            exitButton.Name = "exitButton";
-            exitButton.Size = new Size(192, 73);
-            exitButton.TabIndex = 1;
-            exitButton.Text = "Exit";
-            exitButton.UseVisualStyleBackColor = true;
-            exitButton.Click += exitButton_Click;
+            this.exitButton.Font = new System.Drawing.Font("Comic Sans MS", 14F, 
+                System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.exitButton.Size = new System.Drawing.Size(220, 70);
+            this.exitButton.Text = "Exit";
+            this.exitButton.UseVisualStyleBackColor = true;
+            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
             // 
             // label1
             // 
-            label1.AutoSize = true;
-            label1.BackColor = Color.Transparent;
-            label1.Font = new Font("Comic Sans MS", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.White;
-            label1.Location = new Point(50, 125);
-            label1.Name = "label1";
-            label1.Size = new Size(495, 67);
-            label1.TabIndex = 2;
-            label1.Text = "Brownie Baked Hunt";
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Comic Sans MS", 26F, 
+                System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Text = "Brownie Baked Hunt";
             // 
             // MainForm
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
-            AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(578, 744);
-            Controls.Add(label1);
-            Controls.Add(exitButton);
-            Controls.Add(playButton);
-            DoubleBuffered = true;
-            Name = "MainForm";
-            StartPosition = FormStartPosition.CenterScreen;
-            Load += MainForm_Load;
-            Resize += OnFullScreen;
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = (System.Drawing.Image)(resources.GetObject("$this.BackgroundImage"));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(800, 800);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.exitButton);
+            this.Controls.Add(this.playButton);
+            this.DoubleBuffered = true;
+            this.Name = "MainForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Load += new System.EventHandler(this.MainForm_Load);
+            this.Resize += new System.EventHandler(this.OnFullScreen);
+            this.ResumeLayout(false);
+            this.PerformLayout();
         }
 
         #endregion
 
-        private Button playButton;
-        private Button exitButton;
-        private Label label1;
+        private System.Windows.Forms.Button playButton;
+        private System.Windows.Forms.Button exitButton;
+        private System.Windows.Forms.Label label1;
     }
 }
