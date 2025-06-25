@@ -7,7 +7,7 @@ namespace Brownie.GameObjects
     public class Wolf
     {
         private PictureBox pictureBox;
-        private int speed = 3;
+        private int speed = 2;
         private Point direction;
         private Random rng = new Random();
 

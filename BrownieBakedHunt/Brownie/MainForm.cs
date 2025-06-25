@@ -9,12 +9,7 @@ namespace Brownie
         public MainForm()
         {
             InitializeComponent();
-            this.ClientSize = new Size(800, 800);
-        }
-
-        private void CenterLabel()
-        {
-            label1.Left = (this.ClientSize.Width - label1.Width) / 2;
+            this.ClientSize = new Size(600, 800);
         }
 
         private void CenterButtons()
@@ -34,13 +29,6 @@ namespace Brownie
 
         private void MainForm_Load(object sender, EventArgs e)
         {
-            CenterLabel();
-            CenterButtons();
-        }
-
-        private void OnFullScreen(object sender, EventArgs e)
-        {
-            CenterLabel();
             CenterButtons();
         }
 

@@ -28,8 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SelectCharacter));
-            label1 = new Label();
             backButton = new Button();
             nextButton = new Button();
             pictureBox1 = new PictureBox();
@@ -41,20 +39,6 @@
             ((System.ComponentModel.ISupportInitialize)selectSky).BeginInit();
             ((System.ComponentModel.ISupportInitialize)selectStar).BeginInit();
             SuspendLayout();
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.BackColor = Color.Transparent;
-            label1.Font = new Font("Comic Sans MS", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.White;
-            label1.Location = new Point(100, 83);
-            label1.Name = "label1";
-            label1.Size = new Size(411, 51);
-            label1.TabIndex = 0;
-            label1.Text = "Select Your Character!";
-            label1.TextAlign = ContentAlignment.TopCenter;
-            label1.Click += label1_Click;
             // 
             // backButton
             // 
@@ -90,7 +74,7 @@
             // 
             selectSky.BackColor = Color.Transparent;
             selectSky.Image = Properties.Resources.SelectSky;
-            selectSky.Location = new Point(79, 239);
+            selectSky.Location = new Point(77, 307);
             selectSky.Name = "selectSky";
             selectSky.Size = new Size(173, 221);
             selectSky.TabIndex = 4;
@@ -101,7 +85,7 @@
             // 
             selectStar.BackColor = Color.Transparent;
             selectStar.Image = Properties.Resources.SelectStar;
-            selectStar.Location = new Point(343, 239);
+            selectStar.Location = new Point(348, 307);
             selectStar.Name = "selectStar";
             selectStar.Size = new Size(168, 221);
             selectStar.TabIndex = 5;
@@ -114,7 +98,7 @@
             skyLabel.BackColor = Color.Transparent;
             skyLabel.Font = new Font("Comic Sans MS", 16F, FontStyle.Bold, GraphicsUnit.Point, 0);
             skyLabel.ForeColor = Color.White;
-            skyLabel.Location = new Point(123, 473);
+            skyLabel.Location = new Point(118, 531);
             skyLabel.Name = "skyLabel";
             skyLabel.Size = new Size(77, 45);
             skyLabel.TabIndex = 6;
@@ -126,7 +110,7 @@
             starLabel.BackColor = Color.Transparent;
             starLabel.Font = new Font("Comic Sans MS", 16F, FontStyle.Bold, GraphicsUnit.Point, 0);
             starLabel.ForeColor = Color.White;
-            starLabel.Location = new Point(396, 473);
+            starLabel.Location = new Point(392, 531);
             starLabel.Name = "starLabel";
             starLabel.Size = new Size(90, 45);
             starLabel.TabIndex = 7;
@@ -136,9 +120,9 @@
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.Control;
-            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            BackgroundImageLayout = ImageLayout.Stretch;
+            BackColor = Color.Green;
+            BackgroundImage = Properties.Resources.SelectCharacter;
+            BackgroundImageLayout = ImageLayout.Center;
             ClientSize = new Size(578, 744);
             Controls.Add(starLabel);
             Controls.Add(skyLabel);
@@ -147,12 +131,10 @@
             Controls.Add(pictureBox1);
             Controls.Add(nextButton);
             Controls.Add(backButton);
-            Controls.Add(label1);
             DoubleBuffered = true;
             Name = "SelectCharacter";
             StartPosition = FormStartPosition.CenterScreen;
             Load += SelectCharacter_Load;
-            Resize += OnFullScreen;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)selectSky).EndInit();
             ((System.ComponentModel.ISupportInitialize)selectStar).EndInit();
@@ -161,8 +143,6 @@
         }
 
         #endregion
-
-        private Label label1;
         private Button backButton;
         private Button nextButton;
         private PictureBox pictureBox1;

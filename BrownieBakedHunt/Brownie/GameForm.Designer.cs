@@ -13,19 +13,22 @@
 
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GameForm));
             SuspendLayout();
-            AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
+            // 
+            // GameForm
+            // 
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = System.Drawing.Color.Black;
-            BackgroundImage = (System.Drawing.Image)resources.GetObject("$this.BackgroundImage");
-            BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            ClientSize = new System.Drawing.Size(800, 800);
+            BackColor = Color.Green;
+            BackgroundImage = Properties.Resources.Map;
+            BackgroundImageLayout = ImageLayout.Center;
+            ClientSize = new Size(378, 1170);
             DoubleBuffered = true;
-            FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             Name = "GameForm";
-            StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            StartPosition = FormStartPosition.CenterScreen;
+            Load += GameForm_Load;
             ResumeLayout(false);
         }
     }

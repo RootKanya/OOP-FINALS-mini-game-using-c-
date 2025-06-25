@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SEMESTER 2\\PBO\\OOP-FINALS-mini-game-using-c-\\OOP-FINALS-mini-game-using-c-\\BrownieBakedHunt\\Brownie\\Brownie.csproj",
+      "projectUniqueName": "D:\\SEMESTER 2\\PBO\\OOP-FINALS-mini-game-using-c-\\BrownieBakedHunt\\Brownie\\Brownie.csproj",
       "projectName": "Brownie",
-      "projectPath": "D:\\SEMESTER 2\\PBO\\OOP-FINALS-mini-game-using-c-\\OOP-FINALS-mini-game-using-c-\\BrownieBakedHunt\\Brownie\\Brownie.csproj",
+      "projectPath": "D:\\SEMESTER 2\\PBO\\OOP-FINALS-mini-game-using-c-\\BrownieBakedHunt\\Brownie\\Brownie.csproj",
       "packagesPath": "C:\\Users\\Firman\\.nuget\\packages\\",
-      "outputPath": "D:\\SEMESTER 2\\PBO\\OOP-FINALS-mini-game-using-c-\\OOP-FINALS-mini-game-using-c-\\BrownieBakedHunt\\Brownie\\obj\\",
+      "outputPath": "D:\\SEMESTER 2\\PBO\\OOP-FINALS-mini-game-using-c-\\BrownieBakedHunt\\Brownie\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

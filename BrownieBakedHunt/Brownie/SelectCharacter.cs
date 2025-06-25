@@ -21,24 +21,15 @@ namespace Brownie
         {
             InitializeComponent();
             this.mainForm = mainForm;
+            this.ClientSize = new Size(600, 800);
 
             selectSky.Click += selectSky_Click;
             selectStar.Click += selectStar_Click;
         }
 
-        private void CenterLabel()
-        {
-            label1.Left = (this.ClientSize.Width - label1.Width) / 2;
-        }
-
         private void SelectCharacter_Load(object sender, EventArgs e)
         {
-            CenterLabel();
-        }
-
-        private void OnFullScreen(object sender, EventArgs e)
-        {
-            CenterLabel();
+            
         }
 
         private void selectStar_Click(object sender, EventArgs e)

@@ -73,6 +73,26 @@ namespace Brownie.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Map {
+            get {
+                object obj = ResourceManager.GetObject("Map", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SelectCharacter {
+            get {
+                object obj = ResourceManager.GetObject("SelectCharacter", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap SelectSky {
             get {
                 object obj = ResourceManager.GetObject("SelectSky", resourceCulture);
@@ -113,9 +133,19 @@ namespace Brownie.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Werewolf {
+        internal static System.Drawing.Bitmap Start_Page {
             get {
-                object obj = ResourceManager.GetObject("Werewolf", resourceCulture);
+                object obj = ResourceManager.GetObject("Start Page", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Wolf {
+            get {
+                object obj = ResourceManager.GetObject("Wolf", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
