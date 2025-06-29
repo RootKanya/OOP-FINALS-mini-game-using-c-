@@ -1,36 +1,20 @@
-﻿using System;
-using System.Drawing;
+﻿using System.Drawing;
 using System.Windows.Forms;
 
 namespace Brownie.GameObjects
 {
-    public class Wolf
+    public class Wolf : GameObject
     {
-        private PictureBox pictureBox;
-        private int speed = 2;
         private Point direction;
-        private Random rng = new Random();
 
-        public Wolf(Point startPos, Size size, Image sprite)
+        public Wolf(Point position, Size size, Image sprite)
+            : base(position, size, sprite, speed: 3)
         {
-            pictureBox = new PictureBox
-            {
-                Location = startPos,
-                Size = size,
-                Image = sprite,
-                SizeMode = PictureBoxSizeMode.StretchImage,
-                BackColor = Color.Transparent
-            };
-
-            ChangeDirection();
+            // arah awal random: horizontal atau vertikal
+            direction = new Point(1, 1);
         }
 
-        public PictureBox GetPictureBox() => pictureBox;
-
-        // ✅ This exposes the Bounds property correctly
-        public Rectangle Bounds => pictureBox.Bounds;
-
-        public void Move(Size boundary)
+        public override void Move(Size boundary)
         {
             pictureBox.Left += direction.X * speed;
             pictureBox.Top += direction.Y * speed;
@@ -39,13 +23,6 @@ namespace Brownie.GameObjects
                 direction.X *= -1;
             if (pictureBox.Top < 0 || pictureBox.Bottom > boundary.Height)
                 direction.Y *= -1;
-        }
-
-        public void ChangeDirection()
-        {
-            direction = new Point(rng.Next(-1, 2), rng.Next(-1, 2));
-            if (direction.X == 0 && direction.Y == 0)
-                direction = new Point(1, 0);
         }
     }
 }

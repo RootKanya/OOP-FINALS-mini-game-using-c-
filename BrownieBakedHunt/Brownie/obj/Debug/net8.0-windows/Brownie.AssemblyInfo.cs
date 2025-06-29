@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Brownie")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7affb0a01b57f3a6a7f99a4d708aa92418eede63")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+65538cf474da1ae7f30defc223c1f187cd6e6f43")]
 [assembly: System.Reflection.AssemblyProductAttribute("Brownie")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Brownie")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

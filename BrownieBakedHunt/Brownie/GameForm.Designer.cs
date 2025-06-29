@@ -22,7 +22,7 @@
             BackColor = Color.Green;
             BackgroundImage = Properties.Resources.Map;
             BackgroundImageLayout = ImageLayout.Center;
-            ClientSize = new Size(378, 1170);
+            ClientSize = new Size(576, 867);
             DoubleBuffered = true;
             FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;

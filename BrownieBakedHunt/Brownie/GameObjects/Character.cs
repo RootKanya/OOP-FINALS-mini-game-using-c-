@@ -3,31 +3,14 @@ using System.Windows.Forms;
 
 namespace Brownie.GameObjects
 {
-    public class Character
+    public class Character : GameObject
     {
-        private PictureBox pictureBox;
-        private int speed = 5;
-
-        public Character(Point location, Size size, Image sprite)
+        public Character(Point position, Size size, Image sprite)
+            : base(position, size, sprite, speed: 5)
         {
-            pictureBox = new PictureBox
-            {
-                Image = sprite,
-                Size = size,
-                Location = location,
-                BackColor = Color.Transparent,
-                SizeMode = PictureBoxSizeMode.StretchImage
-            };
         }
 
-        public PictureBox GetPictureBox()
-        {
-            return pictureBox;
-        }
-
-        public Rectangle Bounds => pictureBox.Bounds;
-
-        public void Move(Size clientSize)
+        public override void Move(Size clientSize)
         {
             var newLocation = pictureBox.Location;
 
