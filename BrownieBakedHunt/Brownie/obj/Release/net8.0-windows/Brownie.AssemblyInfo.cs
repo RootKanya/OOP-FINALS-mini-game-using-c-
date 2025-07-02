@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Brownie")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c1d1710a5127b82154007d38e4617da598159fd0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+00a9edfa267e6476bed750048ff8d42d915743b5")]
 [assembly: System.Reflection.AssemblyProductAttribute("Brownie")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Brownie")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

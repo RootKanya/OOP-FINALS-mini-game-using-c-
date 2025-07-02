@@ -49,3 +49,11 @@ D:\SEMESTER 2\PBO\OOP-FINALS-mini-game-using-c-\OOP-FINALS-mini-game-using-c-\Br
 D:\SEMESTER 2\PBO\OOP-FINALS-mini-game-using-c-\OOP-FINALS-mini-game-using-c-\BrownieBakedHunt\Brownie\obj\Debug\net8.0-windows\Brownie.Properties.Resources.resources
 D:\SEMESTER 2\PBO\OOP-FINALS-mini-game-using-c-\OOP-FINALS-mini-game-using-c-\BrownieBakedHunt\Brownie\obj\Debug\net8.0-windows\Brownie.SelectCharacter.resources
 D:\SEMESTER 2\PBO\OOP-FINALS-mini-game-using-c-\OOP-FINALS-mini-game-using-c-\BrownieBakedHunt\Brownie\obj\Debug\net8.0-windows\Brownie.csproj.GenerateResource.cache
+C:\BearKuliahSem02\oop\OOP-FINALS-mini-game-using-c-\BrownieBakedHunt\Brownie\obj\Debug\net8.0-windows\Brownie.GameForm.resources
+C:\BearKuliahSem02\oop\OOP-FINALS-mini-game-using-c-\BrownieBakedHunt\Brownie\obj\Debug\net8.0-windows\Brownie.GameObjects.Character.resources
+C:\BearKuliahSem02\oop\OOP-FINALS-mini-game-using-c-\BrownieBakedHunt\Brownie\obj\Debug\net8.0-windows\Brownie.MainForm.resources
+C:\BearKuliahSem02\oop\OOP-FINALS-mini-game-using-c-\BrownieBakedHunt\Brownie\obj\Debug\net8.0-windows\Brownie.SelectCharacter.resources
+C:\BearKuliahSem02\oop\OOP-FINALS-mini-game-using-c-\BrownieBakedHunt\Brownie\obj\Debug\net8.0-windows\Brownie.csproj.GenerateResource.cache
+C:\BearKuliahSem02\oop\OOP-FINALS-mini-game-using-c-\BrownieBakedHunt\Brownie\obj\Debug\net8.0-windows\Brownie.dll
+C:\BearKuliahSem02\oop\OOP-FINALS-mini-game-using-c-\BrownieBakedHunt\Brownie\obj\Debug\net8.0-windows\refint\Brownie.dll
+C:\BearKuliahSem02\oop\OOP-FINALS-mini-game-using-c-\BrownieBakedHunt\Brownie\obj\Debug\net8.0-windows\Brownie.pdb
