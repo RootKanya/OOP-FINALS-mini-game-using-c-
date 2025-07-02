@@ -42,8 +42,9 @@ A mini OOP-based C# Windows Forms game where players collect brownies while avoi
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
+```yaml
 BrownieBakedHunt:
   Brownie:
     GameObjects:
@@ -59,8 +60,7 @@ BrownieBakedHunt:
     Star.png: "Sprite for Star character"
     Wolf.png: "Sprite for enemy wolf"
     Brownie.png: "Sprite for collectible brownie"
-
-
+```
 
 ## Credits
 
