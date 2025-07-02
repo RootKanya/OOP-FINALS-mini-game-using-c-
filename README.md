@@ -44,41 +44,31 @@ A mini OOP-based C# Windows Forms game where players collect brownies while avoi
 
 ## Project Structure
 
-BrownieBakedHunt/
+📁 BrownieBakedHunt/
 │
-├── Brownie/
-│ ├── GameObjects/
-│ │ ├── Character.cs
-│ │ ├── Wolf.cs
-│ │ ├── BrownieItem.cs
-│ │ └── IMovable.cs (Interface)
-│ ├── GameForm.cs
-│ ├── MainForm.cs
-│ └── Program.cs
+├── 📁 Brownie/
+│   ├── 📁 GameObjects/
+│   │   ├── Character.cs           # Player character class
+│   │   ├── Wolf.cs                # Enemy class
+│   │   ├── BrownieItem.cs         # Collectible item class
+│   │   └── IMovable.cs            # Interface for movement behavior
+│   │
+│   ├── GameForm.cs                # Main gameplay form
+│   ├── MainForm.cs                # Character selection/start menu
+│   └── Program.cs                 # Application entry point
 │
-├── Resources/
-│ ├── Sky.png
-│ ├── Star.png
-│ ├── Wolf.png
-│ ├── Brownie.png
-│ └── ...
+├── 📁 Resources/
+│   ├── Sky.png                    # Sky character sprite
+│   ├── Star.png                   # Star character sprite
+│   ├── Wolf.png                   # Enemy sprite
+│   ├── Brownie.png                # Brownie collectible sprite
 
 
-## 💡 Future Improvements
+## Credits
 
-- Add player health and lives
-- Sound effects and background music
-- High score saving system
-- Custom level maps or difficulty levels
-
----
-
-## 📚 Credits
-
-- Developed by: **Berlian Yafi**
-- Supported by: 180 Degrees Consulting @ ITS
+- Developed by: **Berlian Yafi and Azka Fauziyah**
 - Sprites: Created or sourced from free game asset libraries
 
 ---
 
-## 🧁 Play responsibly and don’t get caught by the wolves!
+## Play responsibly and don’t get caught by the wolves!
