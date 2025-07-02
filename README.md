@@ -44,24 +44,24 @@ A mini OOP-based C# Windows Forms game where players collect brownies while avoi
 
 ## Project Structure
 
-📁 BrownieBakedHunt/
+BrownieBakedHunt/
 │
-├── 📁 Brownie/
-│   ├── 📁 GameObjects/
-│   │   ├── Character.cs           # Player character class
-│   │   ├── Wolf.cs                # Enemy class
-│   │   ├── BrownieItem.cs         # Collectible item class
-│   │   └── IMovable.cs            # Interface for movement behavior
+├── Brownie/
+│   ├── GameObjects/
+│   │   ├── Character.cs        # Player character class
+│   │   ├── Wolf.cs             # Enemy class
+│   │   ├── BrownieItem.cs      # Collectible item class
+│   │   └── IMovable.cs         # Interface for movement behavior
 │   │
-│   ├── GameForm.cs                # Main gameplay form
-│   ├── MainForm.cs                # Character selection/start menu
-│   └── Program.cs                 # Application entry point
+│   ├── GameForm.cs             # Main gameplay form
+│   ├── MainForm.cs             # Character selection/start menu
+│   └── Program.cs              # Application entry point
 │
-├── 📁 Resources/
-│   ├── Sky.png                    # Sky character sprite
-│   ├── Star.png                   # Star character sprite
-│   ├── Wolf.png                   # Enemy sprite
-│   ├── Brownie.png                # Brownie collectible sprite
+├── Resources/
+│   ├── Sky.png                 # Sky character sprite
+│   ├── Star.png                # Star character sprite
+│   ├── Wolf.png                # Enemy sprite
+│   ├── Brownie.png             # Brownie collectible sprite
 
 
 ## Credits
